@@ -45,9 +45,7 @@ function createFeatures(earthquakeData) {
       })
     }
   });
-// Add new feature here??
 
-// End of mag colors
   // Sending our earthquakes layer to the createMap function
   createMap(earthquakes);
 }
